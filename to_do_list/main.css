@@ -1,0 +1,16 @@
+body {
+  background-color: #2a2a5b;
+  text-align: center;
+  font-size: 30px;
+}
+ul {
+  list-style: none;
+}
+div.section {
+  background-color: #99b;
+  border: solid 3px grey;
+}
+div.section h1 {
+  color: #2a2a5b;
+  text-decoration: none;
+}
