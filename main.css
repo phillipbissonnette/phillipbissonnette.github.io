@@ -1,9 +1,37 @@
 body{
   font-size: 30px;
   background-color:#2a2a5b;
-  color:#ffffff;
-
 }
-a{
-  color:#ffffff;
+
+ul {
+  list-style: none;
+}
+
+div.section {
+  background-color: #99b;
+  border: solid 3px grey;
+}
+
+div.section a {
+  color: #2a2a5b;
+  text-decoration: none;
+}
+
+div.section a:hover {
+  text-decoration: underline;
+}
+
+div.section.middle-column {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+div.section.left-column {
+  float: left;
+  width: 290px;
+}
+
+div.section.right-column {
+  float: right;
+  width: 290px;
 }
